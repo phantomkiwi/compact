@@ -1,0 +1,7 @@
+# TO REMOVE index.php FROM URL
+DirectoryIndex index.php
+RewriteEngine on
+Options -Indexes
+RewriteCond %{REQUEST_URI} !/(index.php|thumbnails.php|php/.*|images|css|js|robots\.txt|favicon\.ico) [NC]
+RewriteRule ^ /index.php [L,QSA]
+RewriteRule ^install.* / [R=301,NC,L]

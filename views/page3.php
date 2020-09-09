@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/js/compact.js"></script> 
+</head>
+<body>
+<style>
+body {
+  background: #34495E;
+  color: #fff;
+  font-family: arial;
+  font-size:13px;
+}
+table, td, tr {
+  padding:0; margin:0; border:0;
+}
+.menu a {
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding: 1em 0;
+  text-transform: uppercase;
+}
+.menu .active {
+  border: 0.3em white solid;
+}
+.page {
+  min-width: 30em;
+  width: 60%;
+  margin: 2em auto;
+}
+.menu td {
+  text-align: center;
+}
+.menu td:nth-child(1) {
+    background: #19BC9D;
+}
+.menu td:nth-child(2) {
+    background: #2DCC70;
+}
+.menu td:nth-child(3) {
+    background: #3297DB;
+}
+.menu td:nth-child(4) {
+    background: #9A59B5;
+}
+.content {
+    background: #F1C50E;
+    padding: 0 1em;
+}
+.content div {
+    min-height: 23.5em;
+}
+.content div p {
+    padding: 1em;
+}
+.content div p:nth-child(1) {
+    background: none;
+}
+.content div p:nth-child(2) {
+    background: #8D2242;
+}
+.content div p:nth-child(3) {
+    background: none;
+}
+.content div p:nth-child(4) {
+    background: none;
+}
+.content img {
+    width: 100%;
+}
+.sidebar {
+    background: #FD9064;
+    padding: 0 1em;
+}
+.sidebar img {
+    width: 100%;
+}
+</style>
+<table class="page">
+  <tr class="menu">
+    <td><a href="/">home</a></td>
+    <td><a href="/page2">page 2</a></td>
+    <td class="active"><a href="/page3">page 3</a></td>
+    <td><a href="/page4">page 4</a></td>
+  </tr>
+  <tr>
+    <td colspan="3" class="content" valign="top">
+        <div>
+          <?php echo 'Request data <pre>'; print_r($_REQUEST); echo '</pre>'; ?>
+          <p>A British inventor, who built an Iron Man-style flight suit, has flown it at the Ted (Technology, Entertainment and Design) conference in Vancouver.Richard Browning's short flight took place outside the Vancouver Convention Centre in front of a large crowd.Since he posted the video of his maiden flight in the UK, Mr Browning has had huge interest in his flying suit.</p>
+          <p>Curabitur nulla erat, elementum eget hendrerit at, lobortis id mi. Sed convallis imperdiet nunc, varius rutrum odio feugiat at. Phasellus molestie scelerisque metus in sollicitudin. Fusce blandit quis neque pulvinar tempor. Pellentesque eget orci cursus purus auctor convallis. Aenean laoreet diam sit amet interdum tincidunt. Maecenas in dolor eros. </p>
+          <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sit amet mattis purus. Integer tempus lectus nulla, et elementum libero hendrerit a. Vestibulum eget tincidunt urna. Duis convallis augue eget ex hendrerit porta. Pellentesque egestas condimentum justo, eu mattis nulla posuere nec. Vivamus pellentesque, nibh eu porta lacinia, nunc ipsum venenatis erat, at auctor nibh massa et erat. Integer semper erat vel mauris maximus lacinia. Aliquam in odio sed lorem bibendum porttitor. Donec eget pellentesque ipsum. </p>
+          <p>Nunc efficitur id diam quis aliquam. Integer eleifend lobortis eros, at consectetur mi fermentum a. Curabitur accumsan sodales orci, eget sodales elit pellentesque sit amet. Vivamus congue risus at accumsan tempus. Ut lacus ipsum, tristique sed porttitor ac, bibendum ac mauris. Proin ac iaculis libero, ut congue purus. Proin gravida, risus vel dapibus luctus, felis mi tincidunt lorem, id pellentesque orci risus sed elit. In dapibus vitae nisl at facilisis. </p>
+          <img src="http://www.webconnection.com/wp-content/uploads/2017/03/09CharBannerLeaderboard.jpg" />
+        </div>
+      </td>
+    <td class="sidebar" valign="top">
+        <p>Ut pretium risus elementum, semper ante eu, finibus massa. Curabitur at consequat arcu.</p>
+        <img src="https://airtel-vodafone.com/assets/images/cms/sidebar/PPP-Webpage-Sidebanner-220x1176px.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" style="font-size:9px;">
+<br>
+Design is the creation of a plan or convention for the construction of an object, system or measurable human interaction (as in architectural blueprints, engineering drawings, business processes, circuit diagrams, and sewing patterns).[1] Design has different connotations in different fields (see design disciplines below). In some cases, the direct construction of an object (as in pottery, engineering, management, coding, and graphic design) is also considered to use design thinking.
+Designing often necessitates considering the aesthetic, functional, economic, and sociopolitical dimensions of both the design object and design process. It may involve considerable research, thought, modeling, interactive adjustment, and re-design. Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user interfaces, skyscrapers, corporate identities, business processes, and even methods or processes of designing.[2]
+Thus "design" may be a substantive referring to a categorical abstraction of a created thing or things (the design of something), or a verb for the process of creation as is made clear by grammatical context. It is an act of creativity and innovation.
+Another definition for design is a roadmap or a strategic approach for someone to achieve a unique expectation. It defines the specifications, plans, parameters, costs, activities, processes and how and what to do within legal, political, social, environmental, safety and economic constraints in achieving that objective.[4]
+Here, a "specification" can be manifested as either a plan or a finished product, and "primitives" are the elements from which the design object is composed.
+With such a broad denotation, there is no universal language or unifying institution for designers of all disciplines. This allows for many differing philosophies and approaches toward the subject (see Philosophies and studies of design, below).
+The person designing is called a designer, which is also a term used for people who work professionally in one of the various design areas usually specifying which area is being dealt with (such as a fashion designer, concept designer, web designer or interior designer). A designer's sequence of activities is called a design process while the scientific study of design is called design science.[5][6][7][8]
+Another definition of design is planning to manufacture an object, system, component or structure. Thus the word "design" can be used as a noun or a verb. In a broader sense, the design is an applied art and engineering that integrate with technology.
+While the definition of design is fairly broad, design has a myriad of specifications that professionals utilize in their fields.
+    </td>
+  </tr>
+</table>
+</body>
+</html>
