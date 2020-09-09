@@ -1,2 +1,2 @@
 # compact
-PHP single page application that can run from the backend
+PHP single page application that runs from the backend, non intrusive, proof of concept... could be implemented in to other frameworks and save mass amounts of bandwidth in CMS, Carts, basic sites etc. Benefits: SEO friendly, can do all of the magic server side. Write PHP as you normally would without having to worry about API's and promises and states like you would with a front-end frame-work.
